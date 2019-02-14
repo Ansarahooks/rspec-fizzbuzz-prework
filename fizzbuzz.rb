@@ -1,9 +1,9 @@
-def fizzbuzz(int)
-  if int % 15 == 0
+def fizzbuzz(integer)
+  if integer % 15 == 0
   "FizzBuzz"
-  elsif int % 3 == 0
+elsif integer % 3 == 0
     "Fizz"
-  elsif int % 5 == 0
+  elsif integer % 5 == 0
     "Buzz"
   end
 end
